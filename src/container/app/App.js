@@ -1,5 +1,7 @@
 import React from "react";
 
-const App = () => <div>Hello colors 🌈😌</div>;
+import Router from "../router";
+
+const App = () => <Router />;
 
 export default App;
