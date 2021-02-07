@@ -20,4 +20,5 @@ export const ListItem = styled.li`
 export const ListItemLink = styled(Link)`
   font-size: 1.15em;
   font-weight: 500;
+  color: var(--white);
 `;

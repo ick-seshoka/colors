@@ -2,12 +2,14 @@ import React from "react";
 
 import Header from "../../component/header";
 
-import { Container } from "./styles";
+import { Main, Container } from "./styles";
 
 const Home = () => (
-  <Container>
-    <Header />
-  </Container>
+  <Main>
+    <Container>
+      <Header />
+    </Container>
+  </Main>
 );
 
 export default Home;
