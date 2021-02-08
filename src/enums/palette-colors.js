@@ -25,13 +25,17 @@ export const paletteShades = [
   {
     name: "red",
     code: "#F44336",
+    active: true,
     shades: [
-      { id: 1, colorCode: "#B71C1C" },
-      { id: 2, colorCode: "#C62828" },
-      { id: 3, colorCode: "#D32F2F" },
-      { id: 4, colorCode: "#E53935" },
-      { id: 5, colorCode: "#EF5350" },
-      { id: 6, colorCode: "#E57373" },
+      { id: 1, colorCode: "#B71C1C", active: false },
+      { id: 2, colorCode: "#C62828", active: false },
+      { id: 3, colorCode: "#D32F2F", active: false },
+      { id: 4, colorCode: "#E53935", active: false },
+      { id: 5, colorCode: "#EF5350", active: true },
+      { id: 6, colorCode: "#E57373", active: false },
+      { id: 7, colorCode: "#EF9A9A", active: false },
+      { id: 8, colorCode: "#FFCDD2", active: false },
+      { id: 9, colorCode: "#FFEBEE", active: false },
     ],
   },
 ];
