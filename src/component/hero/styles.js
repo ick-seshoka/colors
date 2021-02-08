@@ -13,7 +13,7 @@ export const Container = styled.div`
     content: "";
     bottom: 0;
     width: 50%;
-    height: 1.2em;
+    height: 1.1em;
     background-color: var(--dirty-white);
     border-radius: 1.7375em 1.7375em 0 0;
   }
