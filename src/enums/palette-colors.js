@@ -9,3 +9,17 @@ export const paletteColors = [
   { name: "green", active: false, colorCode: "#4CAF50", colorShades: [] },
   { name: "yellow", active: false, colorCode: "#FFEB3B", colorShades: [] },
 ];
+
+export const paletteShades = [
+  {
+    name: "red",
+    shades: [
+      { id: 1, colorCode: "#B71C1C" },
+      { id: 2, colorCode: "#C62828" },
+      { id: 3, colorCode: "#D32F2F" },
+      { id: 4, colorCode: "#E53935" },
+      { id: 5, colorCode: "#EF5350" },
+      { id: 6, colorCode: "#E57373" },
+    ],
+  },
+];

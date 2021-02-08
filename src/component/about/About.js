@@ -1,6 +1,7 @@
 import React from "react";
 
 import Palette from "./palette";
+import Shades from "./palette/shades";
 
 import {
   Container,
@@ -21,7 +22,7 @@ const About = () => (
         </Paragraph>
       </ContentWrap>
       <Palette />
-      <Palette />
+      <Shades />
       <ContentWrap>
         <Title>Colors</Title>
         <Paragraph>
