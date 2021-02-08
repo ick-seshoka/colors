@@ -7,12 +7,13 @@ export const BackgroundWrap = styled.div`
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(2, 50%);
+  grid-template-rows: repeat(2, auto);
   grid-row-gap: 6.5em;
   max-width: 1200px;
+  max-height: 31.875em;
   margin: 0 auto;
-  padding-top: 6.625em;
-  padding-bottom: 6.625em;
+  padding-top: 10.625em;
+  padding-bottom: 10.625em;
 `;
 
 export const ContentWrap = styled.div`

@@ -8,7 +8,7 @@ import { Container } from "./styles";
 const Spectrum = ({ shades }) => {
   const colorShades = shades.map(({ colorCode }, index) => {
     if (index < 6) {
-      return <Card colorCode={colorCode} />;
+      return <Card key={index} colorCode={colorCode} />;
     }
 
     return null;
