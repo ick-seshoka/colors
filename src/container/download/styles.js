@@ -54,6 +54,7 @@ export const ButtonWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 5.5em;
 `;
 
 const ButtonStyle = css`
@@ -95,7 +96,7 @@ export const DownloadIcon = styled.img.attrs({ src: DownloadIconSource })`
 
 export const Count = styled.p`
   color: var(--text-gray);
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-weight: 600;
 `;
 

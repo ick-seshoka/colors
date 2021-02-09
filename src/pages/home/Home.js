@@ -5,6 +5,7 @@ import Hero from "../../component/hero";
 import About from "../../component/about";
 import PaletteGrid from "../../container/paletteGrid";
 import Download from "../../container/download";
+import Footer from "../../component/footer";
 
 import { Main, Container } from "./styles";
 
@@ -17,6 +18,7 @@ const Home = () => (
     <About />
     <PaletteGrid />
     <Download />
+    <Footer />
   </Main>
 );
 
