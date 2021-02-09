@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import { Link } from "react-router-dom";
-
 export const Nav = styled.nav``;
 
 export const List = styled.ul`
@@ -17,8 +15,17 @@ export const ListItem = styled.li`
   }
 `;
 
-export const ListItemLink = styled(Link)`
+export const ListItemLink = styled.button`
   font-size: 1.15em;
   font-weight: 500;
   color: var(--white);
+  transition: color 0.3s ease-in;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--dirty-white);
+  }
 `;

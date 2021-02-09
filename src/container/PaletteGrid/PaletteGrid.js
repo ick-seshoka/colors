@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 
 import { paletteColors } from "../../enums";
 import { paletteShades } from "../../enums";
@@ -9,16 +9,16 @@ import Shades from "./shades";
 
 import { Container } from "./styles";
 
-const PaletteGrid = () => {
+const PaletteGrid = forwardRef((_, ref) => {
   const shades = paletteShades.filter(({ active }) => active)[0].shades;
 
   return (
-    <Container>
+    <Container ref={ref}>
       <Intro />
       <Grid palette={paletteColors} />
       <Shades paletteShades={shades} />
     </Container>
   );
-};
+});
 
 export default PaletteGrid;

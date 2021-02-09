@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 
 import {
   BackgroundWrap,
@@ -17,8 +17,8 @@ import {
   DownloadIcon,
 } from "./styles";
 
-const Download = () => (
-  <BackgroundWrap>
+const Download = forwardRef((_, ref) => (
+  <BackgroundWrap ref={ref}>
     <Container>
       <ContentWrap>
         <Title>Intergrate beautiful colors in your design work.</Title>
@@ -50,6 +50,6 @@ const Download = () => (
       </DownloadButtons>
     </Container>
   </BackgroundWrap>
-);
+));
 
 export default Download;
