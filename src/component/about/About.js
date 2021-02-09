@@ -9,6 +9,8 @@ import {
   ContentWrap,
   Title,
   Paragraph,
+  PaletteIconWrap,
+  PaletteIcon,
 } from "./styles";
 
 const About = () => (
@@ -31,6 +33,9 @@ const About = () => (
         </Paragraph>
       </ContentWrap>
     </Container>
+    <PaletteIconWrap>
+      <PaletteIcon />
+    </PaletteIconWrap>
   </BackgroundWrap>
 );
 

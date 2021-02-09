@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import PaletteIconSource from "../paletteIcon";
+
 export const BackgroundWrap = styled.div`
   background-color: var(--dirty-white);
 `;
@@ -32,3 +34,12 @@ export const Paragraph = styled.p`
   font-size: 1.3625em;
   line-height: 1.325em;
 `;
+
+export const PaletteIconWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20em;
+`;
+
+export const PaletteIcon = styled(PaletteIconSource)``;
