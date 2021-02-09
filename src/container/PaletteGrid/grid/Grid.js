@@ -17,7 +17,7 @@ const Grid = ({ palette }) => {
       <ColorCard key={index} colorCode={colorCode} active={active}>
         <ColorName>{name}</ColorName>
         {active && <ActiveIcon />}
-        {/* {!name && <EmptyIcon />} */}
+        {!name && <EmptyIcon />}
         <ColorCode>{name && colorCode}</ColorCode>
       </ColorCard>
     );

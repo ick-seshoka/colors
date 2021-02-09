@@ -45,4 +45,4 @@ export const ColorCode = styled.p`
   font-weight: 200;
 `;
 
-export const EmptyIcon = styled.img.attrs({ src: BlockIcon });
+export const EmptyIcon = styled.img.attrs({ src: BlockIcon })``;
