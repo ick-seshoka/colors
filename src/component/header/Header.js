@@ -2,11 +2,13 @@ import React from "react";
 
 import Navigation from "../navigation";
 
-import { Container, Logo } from "./styles";
+import { Container, Link, Logo } from "./styles";
 
 const Header = () => (
   <Container>
-    <Logo />
+    <Link to="/">
+      <Logo />
+    </Link>
     <Navigation />
   </Container>
 );
