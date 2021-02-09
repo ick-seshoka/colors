@@ -13,8 +13,10 @@ const Shades = ({ paletteShades }) => {
     );
   });
 
-  const axisBlocks = paletteShades.map(({ gradient: { start, end }, id }) => {
-    return <AxisBlock key={id} start={start} end={end} />;
+  const axisBlocks = paletteShades.map(({ active, colorCode, id }) => {
+    return (
+      <AxisBlock key={id} start={colorCode} end={colorCode} active={active} />
+    );
   });
 
   return (

@@ -71,6 +71,12 @@ export const AxisBlock = styled.div`
 
   &:before {
     ${axisMark}
+
+    ${({ active }) =>
+      active &&
+      css`
+        transform: scale(1.6);
+      `}
   }
 
   &:nth-child(9) {
