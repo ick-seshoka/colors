@@ -3,7 +3,8 @@ import React from "react";
 import Header from "../../component/header";
 import Hero from "../../component/hero";
 import About from "../../component/about";
-import PaletteGrid from "../../container/PaletteGrid";
+import PaletteGrid from "../../container/paletteGrid";
+import Download from "../../container/download";
 
 import { Main, Container } from "./styles";
 
@@ -15,6 +16,7 @@ const Home = () => (
     </Container>
     <About />
     <PaletteGrid />
+    <Download />
   </Main>
 );
 
