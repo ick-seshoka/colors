@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import PaletteIconSource from "../paletteIcon";
+import PaletteIconSource from "../../component/paletteIcon";
 
 export const BackgroundWrap = styled.div`
   background-color: var(--dirty-white);

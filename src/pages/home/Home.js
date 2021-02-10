@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import Header from "../../component/header";
 import Hero from "../../component/hero";
-import About from "../../component/about";
+import About from "../../container/about";
 import PaletteGrid from "../../container/paletteGrid";
 import Download from "../../container/download";
 import Footer from "../../component/footer";
@@ -14,11 +14,11 @@ const Home = () => {
   const refDownload = useRef(null);
 
   const clickPaletteLink = () => {
-    refPaletteGrid.current.scrollIntoView();
+    refPaletteGrid.current.scrollIntoView({ behavior: "smooth" });
   };
 
   const clickDownloadLink = () => {
-    refDownload.current.scrollIntoView();
+    refDownload.current.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
