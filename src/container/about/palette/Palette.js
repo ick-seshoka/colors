@@ -1,30 +1,34 @@
 import React from "react";
-
-import { paletteColors } from "../../../enums";
+import PropTypes from "prop-types";
 
 import Item from "./item";
 
 import { Container } from "./styles";
 
-const Palette = () => {
-  const palleteColorsMap = paletteColors.map(
-    ({ name, colorCode, active }, index) => {
-      if (index < 8) {
-        return (
-          <Item
-            key={index}
-            name={name}
-            isActive={active}
-            colorCode={colorCode}
-          />
-        );
-      }
-
-      return null;
+const Palette = ({ paletteColors, activeColor, setActiveColor }) => {
+  const palleteColorsMap = paletteColors.map(({ name, colorCode }, index) => {
+    if (index < 8) {
+      return (
+        <Item
+          key={index}
+          name={name}
+          isActive={colorCode === activeColor.colorCode}
+          colorCode={colorCode}
+          setActiveColor={setActiveColor}
+        />
+      );
     }
-  );
+
+    return null;
+  });
 
   return <Container>{palleteColorsMap}</Container>;
+};
+
+Palette.prototypes = {
+  paletteColors: PropTypes.array,
+  activeColor: PropTypes.bool,
+  setActiveColor: PropTypes.func,
 };
 
 export default Palette;

@@ -1,1 +1,1 @@
-export { default } from "./PaletteGrid";
+export { default } from "./container";

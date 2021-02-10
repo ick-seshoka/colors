@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Spectrum = styled.div`
   display: grid;
-  grid-template-columns: repeat(9, auto);
+  grid-template-columns: repeat(10, auto);
   justify-items: center;
   justify-self: center;
   margin-top: 6.125em;
@@ -38,7 +38,7 @@ export const ColorCard = styled.div`
 
 export const Axis = styled.div`
   display: grid;
-  grid-template-columns: repeat(9, auto);
+  grid-template-columns: repeat(10, auto);
   justify-items: center;
   justify-self: center;
   margin-top: 3.125em;
@@ -69,7 +69,7 @@ export const AxisBlock = styled.div`
       ? "linear-gradient(90deg, " + start + " 0%, " + end + " 100%)"
       : "var(--dark-grey)"};
 
-  &:before {
+  &:after {
     ${axisMark}
 
     ${({ active }) =>
@@ -79,11 +79,10 @@ export const AxisBlock = styled.div`
       `}
   }
 
-  &:nth-child(9) {
+  &:nth-child(10) {
     &:after {
       ${axisMark}
       left: unset;
-      right: -0.3em;
     }
   }
 `;

@@ -1,22 +1,23 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Card from "./card";
-
-import { paletteShades } from "../../../../enums";
-
 import Spectrum from "./spectrum";
 
 import { Container } from "./styles";
 
-const Shades = () => {
-  const shades = paletteShades[0].shades;
-
+const Shades = ({ shades, activeColor: { colorCode } }) => {
   return (
     <Container>
-      <Card colorCode={"#F44336"} />
+      <Card colorCode={colorCode} />
       <Spectrum shades={shades} />
     </Container>
   );
+};
+
+Shades.propTypes = {
+  activeColor: PropTypes.object,
+  shades: PropTypes.array,
 };
 
 export default Shades;
