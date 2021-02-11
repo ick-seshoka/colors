@@ -280,13 +280,13 @@ export const paletteShades = [
   },
   {
     name: "brown",
-    colorCode: "#FF5722",
+    colorCode: "#795548",
     shades: [
       { id: 1, colorCode: "#3E2723", shade: 900 },
       { id: 2, colorCode: "#4E342E", shade: 800 },
       { id: 3, colorCode: "#5D4037", shade: 700 },
       { id: 4, colorCode: "#6D4C41", shade: 600 },
-      { id: 5, colorCode: "#FF5722", shade: 500 },
+      { id: 5, colorCode: "#795548", shade: 500 },
       { id: 6, colorCode: "#8D6E63", shade: 400 },
       { id: 7, colorCode: "#A1887F", shade: 300 },
       { id: 8, colorCode: "#BCAAA4", shade: 200 },
