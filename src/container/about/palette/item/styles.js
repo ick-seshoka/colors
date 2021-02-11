@@ -11,6 +11,11 @@ export const Container = styled.div`
     colorCode ? colorCode : "var(--dar-gray)"};
   align-items: center;
   justify-content: center;
+  transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+  }
 
   ${({ isActive }) =>
     isActive &&
@@ -18,7 +23,7 @@ export const Container = styled.div`
       box-shadow: -1px -1px 14px 0 rgba(0, 0, 0, 0.44),
         4px 6px 14px 0 rgba(0, 0, 0, 0.45);
       transform: scale(1.15);
-    `}
+    `};
 `;
 
 export const Name = styled.p`

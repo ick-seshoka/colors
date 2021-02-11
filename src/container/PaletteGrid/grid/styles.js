@@ -22,6 +22,10 @@ export const ColorCard = styled.div`
   align-items: center;
   justify-content: center;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   ${({ active }) =>
     active &&
     css`

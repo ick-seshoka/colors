@@ -35,7 +35,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#E57373", shade: 300 },
       { id: 8, colorCode: "#EF9A9A", shade: 200 },
       { id: 9, colorCode: "#FFCDD2", shade: 100 },
-      { id: 10, colorCode: "#FFCDD2", shade: 100 },
+      { id: 10, colorCode: "#FFCDD2", shade: 0 },
     ],
   },
   {
@@ -51,7 +51,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#F06292", shade: 300 },
       { id: 8, colorCode: "#F48FB1", shade: 200 },
       { id: 9, colorCode: "#F8BBD0", shade: 100 },
-      { id: 10, colorCode: "#FCE4EC", shade: 100 },
+      { id: 10, colorCode: "#FCE4EC", shade: 0 },
     ],
   },
   {
@@ -67,7 +67,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#BA68C8", shade: 300 },
       { id: 8, colorCode: "#CE93D8", shade: 200 },
       { id: 9, colorCode: "#E1BEE7", shade: 100 },
-      { id: 10, colorCode: "#F3E5F5", shade: 100 },
+      { id: 10, colorCode: "#F3E5F5", shade: 0 },
     ],
   },
   {
@@ -83,7 +83,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#9575CD", shade: 300 },
       { id: 8, colorCode: "#B39DDB", shade: 200 },
       { id: 9, colorCode: "#D1C4E9", shade: 100 },
-      { id: 10, colorCode: "#EDE7F6", shade: 100 },
+      { id: 10, colorCode: "#EDE7F6", shade: 0 },
     ],
   },
   {
@@ -99,7 +99,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#7986CB", shade: 300 },
       { id: 8, colorCode: "#9FA8DA", shade: 200 },
       { id: 9, colorCode: "#C5CAE9", shade: 100 },
-      { id: 10, colorCode: "#E8EAF6", shade: 100 },
+      { id: 10, colorCode: "#E8EAF6", shade: 0 },
     ],
   },
   {
@@ -115,7 +115,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#64B5F6", shade: 300 },
       { id: 8, colorCode: "#90CAF9", shade: 200 },
       { id: 9, colorCode: "#BBDEFB", shade: 100 },
-      { id: 10, colorCode: "#E3F2FD", shade: 100 },
+      { id: 10, colorCode: "#E3F2FD", shade: 0 },
     ],
   },
   {
@@ -131,7 +131,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#4FC3F7", shade: 300 },
       { id: 8, colorCode: "#81D4FA", shade: 200 },
       { id: 9, colorCode: "#B3E5FC", shade: 100 },
-      { id: 10, colorCode: "#E1F5FE", shade: 100 },
+      { id: 10, colorCode: "#E1F5FE", shade: 0 },
     ],
   },
   {
@@ -147,7 +147,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#4DD0E1", shade: 300 },
       { id: 8, colorCode: "#80DEEA", shade: 200 },
       { id: 9, colorCode: "#B2EBF2", shade: 100 },
-      { id: 10, colorCode: "#E0F7FA", shade: 100 },
+      { id: 10, colorCode: "#E0F7FA", shade: 0 },
     ],
   },
   {
@@ -163,7 +163,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#4DB6AC", shade: 300 },
       { id: 8, colorCode: "#80CBC4", shade: 200 },
       { id: 9, colorCode: "#B2DFDB", shade: 100 },
-      { id: 10, colorCode: "#E0F2F1", shade: 100 },
+      { id: 10, colorCode: "#E0F2F1", shade: 0 },
     ],
   },
   {
@@ -179,7 +179,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#81C784", shade: 300 },
       { id: 8, colorCode: "#A5D6A7", shade: 200 },
       { id: 9, colorCode: "#C8E6C9", shade: 100 },
-      { id: 10, colorCode: "#E8F5E9", shade: 100 },
+      { id: 10, colorCode: "#E8F5E9", shade: 0 },
     ],
   },
   {
@@ -195,7 +195,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#AED581", shade: 300 },
       { id: 8, colorCode: "#C5E1A5", shade: 200 },
       { id: 9, colorCode: "#DCEDC8", shade: 100 },
-      { id: 10, colorCode: "#F1F8E9", shade: 100 },
+      { id: 10, colorCode: "#F1F8E9", shade: 0 },
     ],
   },
   {
@@ -211,7 +211,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#DCE775", shade: 300 },
       { id: 8, colorCode: "#E6EE9C", shade: 200 },
       { id: 9, colorCode: "#F0F4C3", shade: 100 },
-      { id: 10, colorCode: "#F9FBE7", shade: 100 },
+      { id: 10, colorCode: "#F9FBE7", shade: 0 },
     ],
   },
   {
@@ -227,7 +227,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#FFF176", shade: 300 },
       { id: 8, colorCode: "#FFF59D", shade: 200 },
       { id: 9, colorCode: "#FFF9C4", shade: 100 },
-      { id: 10, colorCode: "#FFFDE7", shade: 100 },
+      { id: 10, colorCode: "#FFFDE7", shade: 0 },
     ],
   },
   {
@@ -243,7 +243,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#FFD54F", shade: 300 },
       { id: 8, colorCode: "#FFE082", shade: 200 },
       { id: 9, colorCode: "#FFECB3", shade: 100 },
-      { id: 10, colorCode: "#FFF8E1", shade: 100 },
+      { id: 10, colorCode: "#FFF8E1", shade: 0 },
     ],
   },
   {
@@ -259,7 +259,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#FFB74D", shade: 300 },
       { id: 8, colorCode: "#FFCC80", shade: 200 },
       { id: 9, colorCode: "#FFE0B2", shade: 100 },
-      { id: 10, colorCode: "#FFF3E0", shade: 100 },
+      { id: 10, colorCode: "#FFF3E0", shade: 0 },
     ],
   },
   {
@@ -275,7 +275,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#FF8A65", shade: 300 },
       { id: 8, colorCode: "#FFAB91", shade: 200 },
       { id: 9, colorCode: "#FFCCBC", shade: 100 },
-      { id: 10, colorCode: "#FBE9E7", shade: 100 },
+      { id: 10, colorCode: "#FBE9E7", shade: 0 },
     ],
   },
   {
@@ -291,7 +291,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#A1887F", shade: 300 },
       { id: 8, colorCode: "#BCAAA4", shade: 200 },
       { id: 9, colorCode: "#D7CCC8", shade: 100 },
-      { id: 10, colorCode: "#EFEBE9", shade: 100 },
+      { id: 10, colorCode: "#EFEBE9", shade: 0 },
     ],
   },
   {
@@ -307,7 +307,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#90A4AE", shade: 300 },
       { id: 8, colorCode: "#B0BEC5", shade: 200 },
       { id: 9, colorCode: "#CFD8DC", shade: 100 },
-      { id: 10, colorCode: "#ECEFF1", shade: 100 },
+      { id: 10, colorCode: "#ECEFF1", shade: 0 },
     ],
   },
   {
@@ -323,7 +323,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#E0E0E0", shade: 300 },
       { id: 8, colorCode: "#EEEEEE", shade: 200 },
       { id: 9, colorCode: "#F5F5F5", shade: 100 },
-      { id: 10, colorCode: "#FAFAFA", shade: 100 },
+      { id: 10, colorCode: "#FAFAFA", shade: 0 },
     ],
   },
 ];

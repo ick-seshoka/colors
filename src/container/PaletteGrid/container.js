@@ -1,11 +1,21 @@
 import { connect } from "react-redux";
-import { getActiveColorShades, getPaletteColors } from "../../modules/palette";
+import {
+  getActiveColor,
+  getActiveColorShades,
+  getPaletteColors,
+  setActiveColor,
+} from "../../modules/palette";
 
 import PaletteGrid from "./PaletteGrid";
 
 const mapStateToProps = (state) => ({
   paletteColors: getPaletteColors(state),
   paletteShades: getActiveColorShades(state),
+  activeColor: getActiveColor(state),
 });
 
-export default connect(mapStateToProps)(PaletteGrid);
+const mapDispatchToProps = {
+  setActiveColor,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(PaletteGrid);

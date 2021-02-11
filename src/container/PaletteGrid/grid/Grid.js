@@ -11,10 +11,21 @@ import {
   EmptyIcon,
 } from "./styles";
 
-const Grid = ({ palette }) => {
-  const paletteCards = palette.map(({ name, colorCode, active }, index) => {
+const Grid = ({ paletteColors, activeColor, setActiveColor }) => {
+  const handleColorCardClick = (color) => () => {
+    setActiveColor(color);
+  };
+
+  const paletteCards = paletteColors.map(({ name, colorCode }, index) => {
+    const active = activeColor.colorCode === colorCode;
+
     return (
-      <ColorCard key={index} colorCode={colorCode} active={active}>
+      <ColorCard
+        key={index}
+        colorCode={colorCode}
+        active={active}
+        onClick={handleColorCardClick({ name, colorCode })}
+      >
         <ColorName>{name}</ColorName>
         {active && <ActiveIcon />}
         {!name && <EmptyIcon />}
@@ -27,7 +38,9 @@ const Grid = ({ palette }) => {
 };
 
 Grid.propTypes = {
-  paletteCards: PropTypes.array,
+  paletteColors: PropTypes.array,
+  activeColor: PropTypes.object,
+  setActiveColor: PropTypes.func,
 };
 
 export default Grid;
