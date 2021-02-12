@@ -35,7 +35,7 @@ export const paletteShades = [
       { id: 7, colorCode: "#E57373", shade: 300 },
       { id: 8, colorCode: "#EF9A9A", shade: 200 },
       { id: 9, colorCode: "#FFCDD2", shade: 100 },
-      { id: 10, colorCode: "#FFCDD2", shade: 0 },
+      { id: 10, colorCode: "#FFEBEE", shade: 0 },
     ],
   },
   {
