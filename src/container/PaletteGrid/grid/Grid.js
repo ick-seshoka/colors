@@ -24,7 +24,7 @@ const Grid = ({ paletteColors, activeColor, setActiveColor }) => {
         key={index}
         colorCode={colorCode}
         active={active}
-        onClick={handleColorCardClick({ name, colorCode })}
+        onClick={name && handleColorCardClick({ name, colorCode })}
       >
         <ColorName>{name}</ColorName>
         {active && <ActiveIcon />}
