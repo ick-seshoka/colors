@@ -124,7 +124,6 @@ export const AxisBlock = styled.div`
 export const ShadeLevels = styled.div`
   display: grid;
   grid-template-rows: repeat(2, auto);
-  margin-top: 3.125em;
 `;
 
 export const LevelsContainer = styled.div`
@@ -137,6 +136,38 @@ export const Level = styled.p`
   font-size: 1.25em;
   font-weight: 600;
   color: var(--blue-gray);
+  position: relative;
+
+  &:nth-child(1) {
+    left: -1em;
+  }
+  &:nth-child(2) {
+    left: -1em;
+  }
+  &:nth-child(3) {
+    left: -1em;
+  }
+  &:nth-child(4) {
+    left: -1.2em;
+  }
+  &:nth-child(5) {
+    left: -1.3em;
+  }
+  &:nth-child(6) {
+    left: -1.4em;
+  }
+  &:nth-child(7) {
+    left: -1.5em;
+  }
+  &:nth-child(8) {
+    left: -1.6em;
+  }
+  &:nth-child(9) {
+    left: -1.8em;
+  }
+  &:nth-child(10) {
+    left: -1em;
+  }
 `;
 
 export const Title = styled.p`
