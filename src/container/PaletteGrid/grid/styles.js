@@ -21,6 +21,7 @@ export const ColorCard = styled.div`
     colorCode ? colorCode : "var(--dark-gray)"};
   align-items: center;
   justify-content: center;
+  transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
 
   &:hover {
     cursor: pointer;

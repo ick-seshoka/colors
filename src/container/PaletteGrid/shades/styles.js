@@ -34,6 +34,40 @@ export const ColorCard = styled.div`
     `}
   color: var(--white);
   font-weight: 300;
+  transition: background-color 0.05s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+
+  &:nth-child(2) {
+    transition-delay: 0.05s;
+  }
+  &:nth-child(3) {
+    transition-delay: 0.1s;
+  }
+  &:nth-child(4) {
+    transition-delay: 0.15s;
+  }
+  &:nth-child(5) {
+    transition-delay: 0.2s;
+  }
+  &:nth-child(6) {
+    transition-delay: 0.25s;
+  }
+  &:nth-child(7) {
+    transition-delay: 0.3s;
+  }
+  &:nth-child(8) {
+    transition-delay: 0.35s;
+  }
+  &:nth-child(9) {
+    transition-delay: 0.4s;
+  }
+  &:nth-child(10) {
+    transition-delay: 0.45s;
+  }
 `;
 
 export const Axis = styled.div`
