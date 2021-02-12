@@ -17,7 +17,7 @@ const PaletteGrid = forwardRef((props, ref) => {
         activeColor={activeColor}
         setActiveColor={setActiveColor}
       />
-      <Shades paletteShades={paletteShades} />
+      <Shades paletteShades={paletteShades} activeColor={activeColor} />
     </Container>
   );
 });

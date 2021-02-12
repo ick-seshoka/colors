@@ -14,11 +14,13 @@ import {
   Title,
 } from "./styles";
 
-const Shades = ({ paletteShades }) => {
+const Shades = ({ paletteShades, activeColor }) => {
   const gridCards = paletteShades.map(({ colorCode, id }) => {
+    const isActive = colorCode === activeColor.colorCode;
+
     return (
-      <ColorCard key={id} colorCode={colorCode} active={false}>
-        {false && colorCode}
+      <ColorCard key={id} colorCode={colorCode} active={isActive}>
+        {isActive && colorCode}
       </ColorCard>
     );
   });
@@ -51,6 +53,7 @@ const Shades = ({ paletteShades }) => {
 
 Shades.prototype = {
   shades: PropTypes.array,
+  activeColor: PropTypes.object,
 };
 
 export default Shades;
