@@ -2,7 +2,17 @@ import React from "react";
 
 import PropTypes from "prop-types";
 
-import { Container, Spectrum, ColorCard, Axis, AxisBlock } from "./styles";
+import {
+  Container,
+  Spectrum,
+  ColorCard,
+  Axis,
+  AxisBlock,
+  ShadeLevels,
+  LevelsContainer,
+  Level,
+  Title,
+} from "./styles";
 
 const Shades = ({ paletteShades }) => {
   const gridCards = paletteShades.map(({ colorCode, id }) => {
@@ -19,10 +29,22 @@ const Shades = ({ paletteShades }) => {
     );
   });
 
+  const shadeLevels = paletteShades.map(({ id, shade }) => {
+    return (
+      <Level key={id} active={false}>
+        {shade}
+      </Level>
+    );
+  });
+
   return (
     <Container>
       <Spectrum>{gridCards}</Spectrum>
       <Axis>{axisBlocks}</Axis>
+      <ShadeLevels>
+        <LevelsContainer>{shadeLevels}</LevelsContainer>
+        <Title>Shades</Title>
+      </ShadeLevels>
     </Container>
   );
 };

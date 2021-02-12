@@ -120,3 +120,28 @@ export const AxisBlock = styled.div`
     }
   }
 `;
+
+export const ShadeLevels = styled.div`
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  margin-top: 3.125em;
+`;
+
+export const LevelsContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  justify-items: start;
+`;
+
+export const Level = styled.p`
+  font-size: 1.25em;
+  font-weight: 600;
+  color: var(--blue-gray);
+`;
+
+export const Title = styled.p`
+  font-size: 1.5625em;
+  font-weight: 500;
+  color: var(--text-gray);
+  text-align: center;
+`;
