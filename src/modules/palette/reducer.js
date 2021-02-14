@@ -15,7 +15,7 @@ function paletteReducer(state = initialState, action) {
         payload: { color },
       } = action;
 
-      return { ...initialState, activeColor: color };
+      return { ...state, activeColor: color };
     }
 
     default:

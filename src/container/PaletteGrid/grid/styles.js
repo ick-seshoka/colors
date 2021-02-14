@@ -49,6 +49,7 @@ export const ActiveIcon = styled.img.attrs({ src: CircleCheck })``;
 export const ColorCode = styled.p`
   color: var(--white);
   font-weight: 200;
+  /* min-width: 4.8125em; */
 `;
 
 export const EmptyIcon = styled.img.attrs({ src: BlockIcon })``;
@@ -68,4 +69,10 @@ export const CopyIcon = styled.img.attrs({ src: CopyIconSource })`
 export const Wrap = styled.div`
   display: flex;
   flex-direction: row;
+`;
+
+export const Copied = styled.p`
+  color: var(--white);
+  font-weight: 500;
+  /* min-width: 4.8125em; */
 `;
