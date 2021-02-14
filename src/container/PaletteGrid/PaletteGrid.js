@@ -8,7 +8,14 @@ import Shades from "./shades";
 import { Container } from "./styles";
 
 const PaletteGrid = forwardRef((props, ref) => {
-  const { paletteShades, paletteColors, activeColor, setActiveColor } = props;
+  const {
+    paletteShades,
+    paletteColors,
+    activeColor,
+    setActiveColor,
+    activeShade,
+    setActiveShade,
+  } = props;
   return (
     <Container ref={ref}>
       <Intro />
@@ -17,7 +24,11 @@ const PaletteGrid = forwardRef((props, ref) => {
         activeColor={activeColor}
         setActiveColor={setActiveColor}
       />
-      <Shades paletteShades={paletteShades} activeColor={activeColor} />
+      <Shades
+        paletteShades={paletteShades}
+        activeShade={activeShade}
+        setActiveShade={setActiveShade}
+      />
     </Container>
   );
 });
@@ -27,6 +38,8 @@ PaletteGrid.propTypes = {
   paletteColors: PropTypes.array,
   activeColor: PropTypes.object,
   setActiveColor: PropTypes.func,
+  activeShade: PropTypes.object,
+  setActiveShade: PropTypes.func,
 };
 
 export default PaletteGrid;

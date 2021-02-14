@@ -7,23 +7,12 @@ import About from "../../container/about";
 import PaletteGrid from "../../container/paletteGrid";
 import Download from "../../container/download";
 import Footer from "../../component/footer";
-import Toast from "../../component/toast";
-import Emoji from "../../component/emoji";
 
-import { Main, Container, ToastMessage, SuccessCheck, Bold } from "./styles";
+import { Main, Container } from "./styles";
 
 const Home = ({ activeColor: { colorCode } }) => {
   const refPaletteGrid = useRef(null);
   const refDownload = useRef(null);
-
-  const ToastContent = (
-    <ToastMessage>
-      <SuccessCheck />
-      Copied <Bold>{colorCode}</Bold>
-      <Emoji>🎨</Emoji>
-      <Emoji>🙂</Emoji>
-    </ToastMessage>
-  );
 
   const clickPaletteLink = () => {
     refPaletteGrid.current.scrollIntoView({ behavior: "smooth" });
@@ -35,7 +24,6 @@ const Home = ({ activeColor: { colorCode } }) => {
 
   return (
     <Main>
-      <Toast show={false}>{ToastContent}</Toast>
       <Container>
         <Header
           clickPalleteGrid={clickPaletteLink}

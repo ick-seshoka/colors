@@ -26,6 +26,8 @@ export const ColorCard = styled.div`
     colorCode ? colorCode : "var(--dark-grey)"};
   justify-content: center;
   align-items: center;
+  transform: scale(1);
+  transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
 
   ${({ active }) =>
     active &&
@@ -33,6 +35,7 @@ export const ColorCard = styled.div`
       box-shadow: -1px -1px 14px 0 rgba(0, 0, 0, 0.44),
         4px 6px 14px 0 rgba(0, 0, 0, 0.45);
       transform: scale(1.2);
+      z-index: 2;
     `}
   color: var(--white);
   font-weight: 300;
@@ -187,4 +190,11 @@ export const CopyIcon = styled.img.attrs({ src: CopyIconSource })`
   &:hover {
     transform: scale(1.2);
   }
+`;
+
+export const Copied = styled.p`
+  color: var(--white);
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
 `;

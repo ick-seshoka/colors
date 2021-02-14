@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 import PropTypes from "prop-types";
+
+import { copyColorToClipboard } from "../../../helpers";
 
 import {
   Container,
@@ -15,14 +17,38 @@ import {
   CopyIcon,
 } from "./styles";
 
-const Shades = ({ paletteShades, activeColor }) => {
-  const gridCards = paletteShades.map(({ colorCode, id }) => {
-    const isActive = colorCode === activeColor.colorCode;
+const Shades = ({ paletteShades, activeShade, setActiveShade }) => {
+  const [gridShadeCopied, setGridShadeCoppied] = useState(false);
+
+  const handleColorCardClick = (shade) => () => {
+    setActiveShade(shade);
+  };
+  //
+  // Clean up timer with useEffect hook
+  //
+  const copyColorCode = () => {
+    const { colorCode } = activeShade;
+    copyColorToClipboard(colorCode);
+
+    setGridShadeCoppied(true);
+
+    setTimeout(() => {
+      setGridShadeCoppied(false);
+    }, 500);
+  };
+
+  const gridCards = paletteShades.map(({ colorCode, id, shade }) => {
+    const isActive = colorCode === activeShade.colorCode;
 
     return (
-      <ColorCard key={id} colorCode={colorCode} active={isActive}>
-        {isActive && colorCode}
-        {isActive && <CopyIcon />}
+      <ColorCard
+        key={id}
+        colorCode={colorCode}
+        active={isActive}
+        onClick={handleColorCardClick({ id, colorCode, shade })}
+      >
+        {isActive ? (gridShadeCopied ? "Copied!" : colorCode) : null}
+        {isActive && <CopyIcon onClick={copyColorCode} />}
       </ColorCard>
     );
   });
@@ -55,7 +81,8 @@ const Shades = ({ paletteShades, activeColor }) => {
 
 Shades.prototype = {
   shades: PropTypes.array,
-  activeColor: PropTypes.object,
+  activeShade: PropTypes.object,
+  setActiveShade: PropTypes.func,
 };
 
 export default Shades;
