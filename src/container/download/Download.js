@@ -29,7 +29,7 @@ const Download = forwardRef((_, ref) => (
       </ContentWrap>
       <DownloadButtons>
         <ButtonWrap>
-          <SketchButton>
+          <SketchButton enabled>
             <SketchIcon /> Sketch Palette
           </SketchButton>
           <CountWrap>

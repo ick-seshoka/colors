@@ -7,7 +7,7 @@ const Navigation = ({ clickPaletteGrid, clickDownload }) => (
   <Nav>
     <List>
       <ListItem>
-        <ListItemLink onClick={clickPaletteGrid}>Pallete</ListItemLink>
+        <ListItemLink onClick={clickPaletteGrid}>Palette</ListItemLink>
       </ListItem>
       <ListItem>
         <ListItemLink onClick={clickDownload}>Download</ListItemLink>

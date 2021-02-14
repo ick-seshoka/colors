@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 import DownloadIconSource from "../../assets/svg/download-icon.svg";
 import SketchLogo from "../../assets/images/sketch-logo.png";
 import PhotoshopLogo from "../../assets/images/photoshop-logo.png";
+import SketchPalette from "../../assets/files/colors-palette.sketch";
 
 export const BackgroundWrap = styled.div`
   display: flex;
@@ -72,14 +73,28 @@ const ButtonStyle = css`
   align-items: center;
   display: flex;
   font-weight: 500;
+  transition: transform 0.05s ease-in;
+
+  &:hover {
+    cursor: not-allowed;
+    ${({ enabled }) =>
+      enabled &&
+      css`
+        cursor: pointer;
+        transform: scale(1.15);
+      `}
+  }
 `;
 
-export const SketchButton = styled.button`
+export const SketchButton = styled.a.attrs({
+  download: "colors-palette.sketch",
+  href: SketchPalette,
+})`
   ${ButtonStyle}
   background-color: var(--orange);
 `;
 
-export const PhotoshopButton = styled.button`
+export const PhotoshopButton = styled.a`
   ${ButtonStyle}
   background-color: var(--purple);
 `;

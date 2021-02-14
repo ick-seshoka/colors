@@ -3,7 +3,7 @@ import React from "react";
 import {
   TextSlider,
   TextSliderControl,
-  ColorPalleteIcon,
+  ColorPaletteIcon,
   Title,
   Paragraph,
   ControlButton,
@@ -12,7 +12,7 @@ import {
 const Slider = () => (
   <>
     <TextSlider>
-      <ColorPalleteIcon />
+      <ColorPaletteIcon />
       <Title>Home of your material design colors</Title>
       <Paragraph>
         Create or refresh your brand, website, <br />

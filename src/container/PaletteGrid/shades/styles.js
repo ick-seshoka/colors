@@ -27,7 +27,9 @@ export const ColorCard = styled.div`
   justify-content: center;
   align-items: center;
   transform: scale(1);
-  transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out;
+  z-index: 1;
+  transition: transform 0.05s ease-in-out, box-shadow 0.05s ease-in-out,
+    background-color 0.05s ease-in-out, z-index 0.05s;
 
   ${({ active }) =>
     active &&
@@ -37,9 +39,9 @@ export const ColorCard = styled.div`
       transform: scale(1.2);
       z-index: 2;
     `}
+
   color: var(--white);
   font-weight: 300;
-  transition: background-color 0.05s ease-in-out;
 
   &:hover {
     cursor: pointer;

@@ -6,7 +6,7 @@ import Item from "./item";
 import { Container } from "./styles";
 
 const Palette = ({ paletteColors, activeColor, setActiveColor }) => {
-  const palleteColorsMap = paletteColors.map(({ name, colorCode }, index) => {
+  const paletteColorsMap = paletteColors.map(({ name, colorCode }, index) => {
     if (index < 8) {
       return (
         <Item
@@ -22,7 +22,7 @@ const Palette = ({ paletteColors, activeColor, setActiveColor }) => {
     return null;
   });
 
-  return <Container>{palleteColorsMap}</Container>;
+  return <Container>{paletteColorsMap}</Container>;
 };
 
 Palette.prototypes = {

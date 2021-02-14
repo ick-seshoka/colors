@@ -26,7 +26,7 @@ const Home = ({ activeColor: { colorCode } }) => {
     <Main>
       <Container>
         <Header
-          clickPalleteGrid={clickPaletteLink}
+          clickPaletteGrid={clickPaletteLink}
           clickDownload={clickDownloadLink}
         />
         <Hero />

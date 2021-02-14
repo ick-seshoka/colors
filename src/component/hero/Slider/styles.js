@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import PalleteIcon from "../../../assets/svg/pallete-icon.svg";
+import PaletteIcon from "../../../assets/svg/palette-icon.svg";
 
 export const TextSlider = styled.div`
   display: flex;
@@ -15,7 +15,7 @@ export const TextSliderControl = styled.div`
   flex-direction: column;
 `;
 
-export const ColorPalleteIcon = styled.img.attrs({ src: PalleteIcon })`
+export const ColorPaletteIcon = styled.img.attrs({ src: PaletteIcon })`
   max-width: 150px;
 `;
 
