@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape Copy</title>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-637.000000, -2813.000000)" fill="#4CAF50" id="Toast">
+            <g transform="translate(0.000000, 1424.000000)">
+                <g id="Coppied-icon" transform="translate(637.000000, 1389.000000)">
+                    <path d="M10.3322785,0 C4.64952532,0 0,4.62472284 0,10.2771619 C0,15.9296009 4.64952532,20.5543237 10.3322785,20.5543237 C16.0150316,20.5543237 20.664557,15.9296009 20.664557,10.2771619 C20.664557,4.62472284 16.0150316,0 10.3322785,0 L10.3322785,0 Z M8.26582278,15.4157428 L3.09968354,10.2771619 L4.54620253,8.8383592 L8.26582278,12.5381375 L16.1183544,4.72749446 L17.5648734,6.16629712 L8.26582278,15.4157428 L8.26582278,15.4157428 Z" id="Shape-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

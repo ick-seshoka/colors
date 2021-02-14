@@ -38,7 +38,6 @@ export const ColorCard = styled.div`
 
   &:hover {
     cursor: pointer;
-    transform: scale(1.01);
   }
 
   &:nth-child(2) {

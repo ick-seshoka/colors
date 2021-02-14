@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 
 import CircleCheck from "../../../assets/svg/circle-check.svg";
 import BlockIcon from "../../../assets/svg/block-icon.svg";
+import CopyIconSource from "../../../assets/svg/copy-icon.svg";
 
 export const Container = styled.div`
   display: grid;
@@ -51,3 +52,20 @@ export const ColorCode = styled.p`
 `;
 
 export const EmptyIcon = styled.img.attrs({ src: BlockIcon })``;
+
+export const CopyIcon = styled.img.attrs({ src: CopyIconSource })`
+  width: 0.9em;
+  margin-left: 0.3em;
+  background-color: var(--dirty-gray);
+  transform: scale(1);
+  transition: transform 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+`;
+
+export const Wrap = styled.div`
+  display: flex;
+  flex-direction: row;
+`;

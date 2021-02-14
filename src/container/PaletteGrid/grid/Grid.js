@@ -9,11 +9,13 @@ import {
   ActiveIcon,
   ColorCode,
   EmptyIcon,
+  CopyIcon,
+  Wrap,
 } from "./styles";
 
 const Grid = ({ paletteColors, activeColor, setActiveColor }) => {
   const handleColorCardClick = (color) => () => {
-    setActiveColor(color);
+    color.name && setActiveColor(color);
   };
 
   const paletteCards = paletteColors.map(({ name, colorCode }, index) => {
@@ -24,12 +26,15 @@ const Grid = ({ paletteColors, activeColor, setActiveColor }) => {
         key={index}
         colorCode={colorCode}
         active={active}
-        onClick={name && handleColorCardClick({ name, colorCode })}
+        onClick={handleColorCardClick({ name, colorCode })}
       >
         <ColorName>{name}</ColorName>
         {active && <ActiveIcon />}
         {!name && <EmptyIcon />}
-        <ColorCode>{name && colorCode}</ColorCode>
+        <Wrap>
+          <ColorCode>{name && colorCode}</ColorCode>
+          {active && <CopyIcon />}
+        </Wrap>
       </ColorCard>
     );
   });
