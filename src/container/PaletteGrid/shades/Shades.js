@@ -12,6 +12,7 @@ import {
   LevelsContainer,
   Level,
   Title,
+  CopyIcon,
 } from "./styles";
 
 const Shades = ({ paletteShades, activeColor }) => {
@@ -21,6 +22,7 @@ const Shades = ({ paletteShades, activeColor }) => {
     return (
       <ColorCard key={id} colorCode={colorCode} active={isActive}>
         {isActive && colorCode}
+        {isActive && <CopyIcon />}
       </ColorCard>
     );
   });

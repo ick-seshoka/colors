@@ -1,5 +1,7 @@
 import styled, { css } from "styled-components";
 
+import CopyIconSource from "../../../assets/svg/copy-icon.svg";
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -174,4 +176,15 @@ export const Title = styled.p`
   font-weight: 500;
   color: var(--text-gray);
   text-align: center;
+`;
+
+export const CopyIcon = styled.img.attrs({ src: CopyIconSource })`
+  width: 0.95em;
+  margin-top: 0.3em;
+  transform: scale(1);
+  transition: transform 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 `;

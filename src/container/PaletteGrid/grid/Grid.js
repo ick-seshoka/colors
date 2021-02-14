@@ -35,7 +35,7 @@ const Grid = ({ paletteColors, activeColor, setActiveColor }) => {
 
     setTimeout(() => {
       setGridColorCopied(false);
-    }, 1500);
+    }, 500);
   };
 
   const paletteCards = paletteColors.map(({ name, colorCode }, index) => {
