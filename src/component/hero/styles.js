@@ -17,4 +17,9 @@ export const Container = styled.div`
     background-color: var(--dirty-white);
     border-radius: 1.7375em 1.7375em 0 0;
   }
+
+  @media screen and (max-width: 40em) {
+    grid-template-columns: auto;
+    grid-template-rows: 85% auto;
+  }
 `;

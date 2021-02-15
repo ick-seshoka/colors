@@ -21,6 +21,12 @@ export const Container = styled.div`
   min-height: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 40em) {
+    max-width: 100%;
+    padding: 0 2.3em;
+  }
 `;
 
 export const ToastMessage = styled.p`

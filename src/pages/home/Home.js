@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import PropTypes from "prop-types";
-
+import { Desktop, Tablet, Mobile } from "../../styles";
 import Header from "../../component/header";
 import Hero from "../../component/hero";
 import About from "../../container/about";
@@ -31,10 +31,12 @@ const Home = ({ activeColor: { colorCode } }) => {
         />
         <Hero />
       </Container>
-      <About />
-      <PaletteGrid ref={refPaletteGrid} />
-      <Download ref={refDownload} />
-      <Footer />
+      <Desktop>
+        <About />
+        <PaletteGrid ref={refPaletteGrid} />
+        <Download ref={refDownload} />
+        <Footer />
+      </Desktop>
     </Main>
   );
 };

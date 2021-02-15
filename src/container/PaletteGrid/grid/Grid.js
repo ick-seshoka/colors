@@ -4,8 +4,6 @@ import PropTypes from "prop-types";
 
 import { copyColorToClipboard } from "../../../helpers";
 
-import Emoji from "../../../component/emoji";
-
 import {
   Container,
   ColorCard,
