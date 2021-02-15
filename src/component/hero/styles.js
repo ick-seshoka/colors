@@ -21,5 +21,10 @@ export const Container = styled.div`
   @media screen and (max-width: 40em) {
     grid-template-columns: auto;
     grid-template-rows: 85% auto;
+
+    &:after {
+      width: 80%;
+      height: 0.8em;
+    }
   }
 `;
