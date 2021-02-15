@@ -35,7 +35,7 @@ export const Title = styled.h2`
   text-align: center;
 
   @media screen and (max-width: 40em) {
-    font-size: 2.063em;
+    font-size: 1.755em;
     line-height: 1.5;
   }
 `;
@@ -48,7 +48,7 @@ export const Paragraph = styled.p`
   line-height: 1.5375em;
 
   @media screen and (max-width: 40em) {
-    font-size: 1.25em;
+    font-size: 1.05em;
   }
 `;
 
