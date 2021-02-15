@@ -11,6 +11,11 @@ export const BackgroundWrap = styled.div`
   background-color: var(--dirty-white);
   padding-top: 7.265em;
   padding-bottom: 7.265em;
+
+  @media screen and (max-width: 40em) {
+    padding-top: 3.2625em;
+    padding-bottom: 3.2625em;
+  }
 `;
 
 export const ContentWrap = styled.div`
@@ -21,6 +26,11 @@ export const ContentWrap = styled.div`
   margin: 0 auto;
   align-items: center;
   width: 50%;
+
+  @media screen and (max-width: 40em) {
+    max-width: 100%;
+    width: 80%;
+  }
 `;
 
 export const Container = styled.div`
@@ -31,6 +41,11 @@ export const Container = styled.div`
 export const Title = styled.h3`
   color: var(--dark-gray);
   font-size: 1.8875em;
+
+  @media screen and (max-width: 40em) {
+    font-size: 1.4625em;
+    text-align: center;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -38,6 +53,11 @@ export const Paragraph = styled.p`
   font-size: 1.3625em;
   line-height: 1.325em;
   text-align: center;
+
+  @media screen and (max-width: 40em) {
+    font-size: 1.05em;
+    line-height: 1.6em;
+  }
 `;
 
 export const DownloadButtons = styled.div`
@@ -49,6 +69,13 @@ export const DownloadButtons = styled.div`
   margin: 0 auto;
   align-items: center;
   width: 40%;
+
+  @media screen and (max-width: 40em) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    width: 80%;
+    max-width: 100%;
+  }
 `;
 
 export const ButtonWrap = styled.div`
@@ -56,6 +83,10 @@ export const ButtonWrap = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 5.5em;
+
+  @media screen and (max-width: 40em) {
+    margin-top: 1.5em;
+  }
 `;
 
 const ButtonStyle = css`

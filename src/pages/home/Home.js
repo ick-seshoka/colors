@@ -33,8 +33,8 @@ const Home = ({ activeColor: { colorCode } }) => {
       </Container>
       <About />
       <PaletteGrid ref={refPaletteGrid} />
+      <Download ref={refDownload} />
       <Desktop>
-        <Download ref={refDownload} />
         <Footer />
       </Desktop>
     </Main>
