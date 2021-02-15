@@ -24,6 +24,10 @@ export const Container = styled.div`
         4px 6px 14px 0 rgba(0, 0, 0, 0.45);
       transform: scale(1.15);
     `};
+
+  @media screen and (max-width: 40em) {
+    height: 9em;
+  }
 `;
 
 export const Name = styled.p`

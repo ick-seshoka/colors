@@ -16,7 +16,7 @@ import {
 const About = () => (
   <BackgroundWrap>
     <Container>
-      <ContentWrap>
+      <ContentWrap isPaletteIntro>
         <Title>Palette</Title>
         <Paragraph>
           Colors palette comprises primary and accent colors that have been
