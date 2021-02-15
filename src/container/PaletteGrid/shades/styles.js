@@ -7,6 +7,14 @@ export const Container = styled.div`
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
+
+  @media screen and (max-width: 40em) {
+    margin: unset;
+    overflow-x: scroll;
+    max-width: 100%;
+    padding-left: 5em;
+    box-sizing: border-box;
+  }
 `;
 
 export const Spectrum = styled.div`
@@ -15,6 +23,10 @@ export const Spectrum = styled.div`
   justify-items: center;
   justify-self: center;
   margin-top: 6.125em;
+
+  @media screen and (max-width: 40em) {
+    margin-top: 4.125em;
+  }
 `;
 
 export const ColorCard = styled.div`
@@ -134,7 +146,7 @@ export const ShadeLevels = styled.div`
 
 export const LevelsContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(10, auto);
+  grid-template-columns: repeat(10, 5.75em);
   justify-items: start;
 `;
 
@@ -174,6 +186,10 @@ export const Level = styled.p`
   &:nth-child(10) {
     left: -1em;
   }
+
+  @media screen and (max-width: 40em) {
+    font-size: 1.125em;
+  }
 `;
 
 export const Title = styled.p`
@@ -181,6 +197,11 @@ export const Title = styled.p`
   font-weight: 500;
   color: var(--text-gray);
   text-align: center;
+
+  @media screen and (max-width: 40em) {
+    display: ${({ desktop }) => (!desktop ? "block" : "none")};
+    font-size: 1.25em;
+  }
 `;
 
 export const CopyIcon = styled.img.attrs({ src: CopyIconSource })`

@@ -11,6 +11,17 @@ export const Container = styled.div`
   justify-items: center;
   justify-self: center;
   margin-top: 8.125em;
+
+  @media screen and (max-width: 40em) {
+    grid-template-columns: repeat(19, auto);
+    grid-template-rows: unset;
+    max-width: 100%;
+    overflow-x: scroll;
+    padding: 3em;
+    padding-left: 5.375em;
+    box-sizing: border-box;
+    margin-top: 1.125em;
+  }
 `;
 
 export const ColorCard = styled.div`
@@ -35,6 +46,12 @@ export const ColorCard = styled.div`
         4px 6px 14px 0 rgba(0, 0, 0, 0.45);
       transform: scale(1.2);
     `}
+
+  @media screen and (max-width: 40em) {
+    &:nth-child(20) {
+      display: none;
+    }
+  }
 `;
 
 export const ColorName = styled.p`

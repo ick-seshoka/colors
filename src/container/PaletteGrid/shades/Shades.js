@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import PropTypes from "prop-types";
 
 import { copyColorToClipboard } from "../../../helpers";
@@ -68,14 +67,17 @@ const Shades = ({ paletteShades, activeShade, setActiveShade }) => {
   });
 
   return (
-    <Container>
-      <Spectrum>{gridCards}</Spectrum>
-      <Axis>{axisBlocks}</Axis>
-      <ShadeLevels>
-        <LevelsContainer>{shadeLevels}</LevelsContainer>
-        <Title>Shades</Title>
-      </ShadeLevels>
-    </Container>
+    <>
+      <Container>
+        <Spectrum>{gridCards}</Spectrum>
+        <Axis>{axisBlocks}</Axis>
+        <ShadeLevels>
+          <LevelsContainer>{shadeLevels}</LevelsContainer>
+          <Title desktop>Shades</Title>
+        </ShadeLevels>
+      </Container>
+      <Title>Shades</Title>
+    </>
   );
 };
 

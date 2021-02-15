@@ -6,28 +6,53 @@ import CircleGridIcon from "../../../assets/svg/circle-grid-icon.svg";
 export const Container = styled.div`
   display: grid;
   grid-template-columns: auto 20%;
+
+  @media screen and (max-width: 40em) {
+    grid-template-columns: auto;
+  }
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 50%;
+
+  @media screen and (max-width: 40em) {
+    max-width: 100%;
+    align-items: center;
+  }
 `;
 
 export const Title = styled.h3`
   color: var(--dark-gray);
   font-size: 1.8875em;
+
+  @media screen and (max-width: 40em) {
+    text-align: center;
+    font-size: 1.4625em;
+  }
 `;
 
 export const Paragraph = styled.p`
   color: var(--text-gray);
   font-size: 1.3625em;
   line-height: 1.325em;
+
+  @media screen and (max-width: 40em) {
+    text-align: center;
+    font-size: 1.05em;
+    line-height: 1.6em;
+    max-width: 80%;
+  }
 `;
 
 export const GridViewControl = styled.div`
   display: grid;
   grid-template-columns: repeat(2, auto);
+
+  @media screen and (max-width: 40em) {
+    display: none;
+  }
 `;
 
 const iconButtonStyle = css`
