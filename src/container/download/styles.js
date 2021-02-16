@@ -68,6 +68,11 @@ export const Paragraph = styled.p`
   @media screen and (min-width: 48em) and (max-width: 61.9375em) {
     max-width: 80%;
   }
+
+  @media screen and (min-width: 62em) {
+    width: 70%;
+    line-height: 1.5;
+  }
 `;
 
 export const DownloadButtons = styled.div`
