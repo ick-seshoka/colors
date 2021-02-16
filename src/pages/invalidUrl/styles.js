@@ -24,6 +24,10 @@ export const Title = styled.h3`
   color: var(--dark-gray);
   margin-top: 0;
   margin-bottom: 0;
+
+  @media screen and (max-width: 75em) {
+    font-size: 5.3125em;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -31,6 +35,10 @@ export const Paragraph = styled.p`
   font-weight: 500;
   color: var(--dark-gray);
   margin-top: 0.3em;
+
+  @media screen and (max-width: 75em) {
+    font-size: 1.7125em;
+  }
 `;
 
 export const HomeButton = styled(Link)`
@@ -43,6 +51,12 @@ export const HomeButton = styled(Link)`
   text-align: center;
   line-height: 2.625em;
   margin-top: 2.325em;
+  transform: scale(1);
+  transition: transform 0.05s ease-in;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 
 export const EyesIcon = styled(Emoji)`

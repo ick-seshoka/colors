@@ -26,6 +26,6 @@ export const Copyright = styled.p`
   margin-top: 1.5em;
 
   @media screen and (max-width: 47.9375em) {
-    font-size: 1.05em;
+    font-size: 0.85em;
   }
 `;
