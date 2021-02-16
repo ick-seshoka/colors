@@ -8,7 +8,7 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     margin: unset;
     overflow-x: scroll;
     max-width: 100%;
@@ -198,13 +198,17 @@ export const Title = styled.p`
   color: var(--text-gray);
   text-align: center;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     display: ${({ desktop }) => (!desktop ? "block" : "none")};
     font-size: 1.25em;
   }
 
-  @media screen and (min-width: 47.9375em) {
+  @media screen and (min-width: 61.9375em) {
     display: ${({ desktop }) => (desktop ? "block" : "none")};
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    font-size: 1.5625em;
   }
 `;
 

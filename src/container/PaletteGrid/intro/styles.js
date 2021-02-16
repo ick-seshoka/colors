@@ -7,8 +7,12 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: auto 20%;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     grid-template-columns: auto;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    justify-items: center;
   }
 `;
 
@@ -20,6 +24,10 @@ export const Content = styled.div`
   @media screen and (max-width: 47.9375em) {
     max-width: 100%;
     align-items: center;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    max-width: 80%;
   }
 `;
 
@@ -44,13 +52,16 @@ export const Paragraph = styled.p`
     line-height: 1.6em;
     max-width: 80%;
   }
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    max-width: 80%;
+  }
 `;
 
 export const GridViewControl = styled.div`
   display: grid;
   grid-template-columns: repeat(2, auto);
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     display: none;
   }
 `;

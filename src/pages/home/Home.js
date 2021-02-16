@@ -31,8 +31,8 @@ const Home = () => {
         <Hero />
       </Container>
       <About />
+      <PaletteGrid ref={refPaletteGrid} />
       <Desktop>
-        <PaletteGrid ref={refPaletteGrid} />
         <Download ref={refDownload} />
         <Footer />
       </Desktop>

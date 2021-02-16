@@ -12,7 +12,7 @@ export const Container = styled.div`
   justify-self: center;
   margin-top: 8.125em;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     grid-template-columns: repeat(19, auto);
     grid-template-rows: unset;
     max-width: 100%;
@@ -47,7 +47,7 @@ export const ColorCard = styled.div`
       transform: scale(1.2);
     `}
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     &:nth-child(20) {
       display: none;
     }
@@ -60,7 +60,7 @@ export const ColorName = styled.p`
   font-size: 1.2em;
   font-weight: 400;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     font-size: 1.1em;
   }
 `;

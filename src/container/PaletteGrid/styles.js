@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding-bottom: 7.265em;
 
   @media screen and (max-width: 47.9375em) {
-    padding-top: 5.2625em;
-    padding-bottom: 5.2625em;
+    padding-top: 5.625em;
+    padding-bottom: 5.625em;
   }
 `;
