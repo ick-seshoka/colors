@@ -32,10 +32,8 @@ const Home = () => {
       </Container>
       <About />
       <PaletteGrid ref={refPaletteGrid} />
-      <Desktop>
-        <Download ref={refDownload} />
-        <Footer />
-      </Desktop>
+      <Download ref={refDownload} />
+      <Footer />
     </Main>
   );
 };

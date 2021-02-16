@@ -27,7 +27,7 @@ export const ContentWrap = styled.div`
   align-items: center;
   width: 50%;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     max-width: 100%;
     width: 80%;
   }
@@ -46,6 +46,12 @@ export const Title = styled.h3`
     font-size: 1.4625em;
     text-align: center;
   }
+
+  @media screen and (min-width: 40em) and (max-width: 61.9375em) {
+    font-size: 1.9875em;
+    text-align: center;
+    line-height: 1.5;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -57,6 +63,10 @@ export const Paragraph = styled.p`
   @media screen and (max-width: 47.9375em) {
     font-size: 1.05em;
     line-height: 1.6em;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    max-width: 80%;
   }
 `;
 
@@ -76,6 +86,10 @@ export const DownloadButtons = styled.div`
     width: 80%;
     max-width: 100%;
   }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    width: 80%;
+  }
 `;
 
 export const ButtonWrap = styled.div`
@@ -84,7 +98,7 @@ export const ButtonWrap = styled.div`
   align-items: center;
   margin-top: 5.5em;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     margin-top: 1.5em;
   }
 `;
