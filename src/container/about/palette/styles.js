@@ -18,4 +18,10 @@ export const Container = styled.div`
     min-height: 10em;
     box-sizing: border-box;
   }
+
+  @media screen and (min-width: 62em) {
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    width: 85%;
+  }
 `;

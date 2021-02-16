@@ -35,6 +35,10 @@ export const Container = styled.div`
       "Shades-intro"
       "Shades";
   }
+
+  @media screen and (min-width: 62em) {
+    justify-items: center;
+  }
 `;
 
 export const ContentWrap = styled.div`
@@ -81,6 +85,11 @@ export const PaletteIconWrap = styled.div`
   @media screen and (max-width: 47.9375em) {
     margin-right: unset;
     align-items: center;
+  }
+
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    align-items: flex-end;
+    margin-right: 10em;
   }
 `;
 
