@@ -22,4 +22,6 @@ const mapDispatchToProps = {
   setActiveShade,
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(PaletteGrid);
+export default connect(mapStateToProps, mapDispatchToProps, null, {
+  forwardRef: true,
+})(PaletteGrid);
