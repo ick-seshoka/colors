@@ -36,6 +36,9 @@ const Shades = ({ paletteShades, activeShade, setActiveShade }) => {
     }, 500);
   };
 
+  //
+  // Move grid cards to selector for memoization
+  //
   const gridCards = paletteShades.map(({ colorCode, id, shade }) => {
     const isActive = colorCode === activeShade.colorCode;
 
@@ -52,12 +55,18 @@ const Shades = ({ paletteShades, activeShade, setActiveShade }) => {
     );
   });
 
+  //
+  // Move axis bloxks to selector for memoization
+  //
   const axisBlocks = paletteShades.map(({ colorCode, id }) => {
     return (
       <AxisBlock key={id} start={colorCode} end={colorCode} active={false} />
     );
   });
 
+  //
+  // Move shade levels to selector for memoization
+  //
   const shadeLevels = paletteShades.map(({ id, shade }) => {
     return (
       <Level key={id} active={false}>

@@ -137,6 +137,14 @@ export const AxisBlock = styled.div`
       left: unset;
     }
   }
+
+  @media screen and (min-width: 62em) {
+    &:nth-child(10) {
+      &:after {
+        left: -0.5625em;
+      }
+    }
+  }
 `;
 
 export const ShadeLevels = styled.div`
@@ -189,6 +197,39 @@ export const Level = styled.p`
 
   @media screen and (max-width: 47.9375em) {
     font-size: 1.125em;
+  }
+
+  @media screen and (min-width: 62em) {
+    &:nth-child(1) {
+      left: -0.7em;
+    }
+    &:nth-child(2) {
+      left: -0.6em;
+    }
+    &:nth-child(3) {
+      left: -0.5em;
+    }
+    &:nth-child(4) {
+      left: -0.4em;
+    }
+    &:nth-child(5) {
+      left: -0.3em;
+    }
+    &:nth-child(6) {
+      left: -0.2em;
+    }
+    &:nth-child(7) {
+      left: -0.1em;
+    }
+    &:nth-child(8) {
+      left: 0.1em;
+    }
+    &:nth-child(9) {
+      left: 0.4em;
+    }
+    &:nth-child(10) {
+      left: 1em;
+    }
   }
 `;
 
