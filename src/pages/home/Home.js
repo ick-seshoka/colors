@@ -5,7 +5,6 @@ import About from "../../container/about";
 import PaletteGrid from "../../container/paletteGrid";
 import Download from "../../container/download";
 import Footer from "../../component/footer";
-import { Desktop } from "../../styles";
 
 import { Main, Container } from "./styles";
 

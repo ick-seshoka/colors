@@ -8,7 +8,7 @@ export const Container = styled.div`
   grid-template-columns: 10% auto;
   align-items: center;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 47,9375em) {
     grid-template-columns: repeat(2, auto);
   }
 `;
@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Link = styled(LinkSource)``;
 
 export const Logo = styled.img.attrs({ src: ColorsLogo })`
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 47,9375em) {
     width: 4.6875em;
   }
 `;
