@@ -20,7 +20,7 @@ export const Container = styled.div`
   padding-top: 10.625em;
   padding-bottom: 10.625em;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     grid-template-columns: auto;
     grid-template-rows: repeat(2, auto);
     justify-items: center;
@@ -64,6 +64,11 @@ export const Paragraph = styled.p`
     text-align: center;
     font-size: 1.05em;
     line-height: 1.6em;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    width: 80%;
+    line-height: 1.5;
   }
 `;
 

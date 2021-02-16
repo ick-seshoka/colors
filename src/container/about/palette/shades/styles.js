@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-items: center;
   grid-area: Shades;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     overflow-x: scroll;
     max-width: 100%;
     padding-left: 5em;

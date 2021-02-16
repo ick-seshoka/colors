@@ -28,6 +28,10 @@ export const Container = styled.div`
   @media screen and (max-width: 47.9375em) {
     height: 9em;
   }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    height: 10em;
+  }
 `;
 
 export const Name = styled.p`

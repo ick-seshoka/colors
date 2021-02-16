@@ -8,7 +8,7 @@ export const Container = styled.div`
   justify-items: center;
   justify-self: center;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     grid-template-rows: auto;
     grid-template-columns: repeat(6, auto);
     padding-left: 5.275em;

@@ -30,8 +30,8 @@ const Home = () => {
         />
         <Hero />
       </Container>
+      <About />
       <Desktop>
-        <About />
         <PaletteGrid ref={refPaletteGrid} />
         <Download ref={refDownload} />
         <Footer />
