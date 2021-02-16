@@ -20,7 +20,7 @@ export const Container = styled.div`
   padding-top: 10.625em;
   padding-bottom: 10.625em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     grid-template-columns: auto;
     grid-template-rows: repeat(2, auto);
     justify-items: center;
@@ -49,7 +49,7 @@ export const Title = styled.h3`
   color: var(--dark-gray);
   font-size: 1.8875em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     text-align: center;
     font-size: 1.4625em;
   }
@@ -60,7 +60,7 @@ export const Paragraph = styled.p`
   font-size: 1.3625em;
   line-height: 1.325em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     text-align: center;
     font-size: 1.05em;
     line-height: 1.6em;
@@ -73,7 +73,7 @@ export const PaletteIconWrap = styled.div`
   align-items: flex-end;
   margin-right: 20em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     margin-right: unset;
     align-items: center;
   }

@@ -8,7 +8,7 @@ export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     margin: unset;
     overflow-x: scroll;
     max-width: 100%;
@@ -24,7 +24,7 @@ export const Spectrum = styled.div`
   justify-self: center;
   margin-top: 6.125em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     margin-top: 4.125em;
   }
 `;
@@ -32,8 +32,8 @@ export const Spectrum = styled.div`
 export const ColorCard = styled.div`
   display: flex;
   flex-direction: column;
-  width: 5.625em;
-  height: 5.625em;
+  width: 5.925em;
+  height: 5.925em;
   background-color: ${({ colorCode }) =>
     colorCode ? colorCode : "var(--dark-grey)"};
   justify-content: center;
@@ -187,7 +187,7 @@ export const Level = styled.p`
     left: -1em;
   }
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     font-size: 1.125em;
   }
 `;
@@ -198,9 +198,13 @@ export const Title = styled.p`
   color: var(--text-gray);
   text-align: center;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     display: ${({ desktop }) => (!desktop ? "block" : "none")};
     font-size: 1.25em;
+  }
+
+  @media screen and (min-width: 47.9375em) {
+    display: ${({ desktop }) => (desktop ? "block" : "none")};
   }
 `;
 

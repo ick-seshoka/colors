@@ -20,7 +20,7 @@ export const Copyright = styled.p`
   font-size: 1.15em;
   margin-top: 1.5em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     font-size: 1.05em;
   }
 `;

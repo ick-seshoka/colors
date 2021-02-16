@@ -18,7 +18,7 @@ export const Container = styled.div`
     border-radius: 1.7375em 1.7375em 0 0;
   }
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     grid-template-columns: auto;
     grid-template-rows: 85% auto;
 

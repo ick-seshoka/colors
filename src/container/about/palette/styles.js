@@ -7,7 +7,7 @@ export const Container = styled.div`
   max-width: 80%;
   grid-area: Palette;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     grid-template-rows: auto;
     grid-template-columns: repeat(8, 10em);
     max-width: 100%;

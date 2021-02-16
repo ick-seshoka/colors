@@ -10,7 +10,7 @@ export const List = styled.ul`
     * hack to put it in the right direction, 
     * investigate it layter
   */
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     display: flex;
     flex-direction: row;
   }
@@ -23,7 +23,7 @@ export const ListItem = styled.li`
     margin-right: 3em;
   }
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     &:nth-child(1) {
       margin-right: 1.5em;
     }
@@ -44,7 +44,7 @@ export const ListItemLink = styled.button`
     color: var(--dirty-white);
   }
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     font-size: 0.9375em;
   }
 `;

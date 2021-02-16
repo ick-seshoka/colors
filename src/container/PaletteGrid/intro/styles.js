@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: auto 20%;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     grid-template-columns: auto;
   }
 `;
@@ -17,7 +17,7 @@ export const Content = styled.div`
   flex-direction: column;
   max-width: 50%;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     max-width: 100%;
     align-items: center;
   }
@@ -27,7 +27,7 @@ export const Title = styled.h3`
   color: var(--dark-gray);
   font-size: 1.8875em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     text-align: center;
     font-size: 1.4625em;
   }
@@ -38,7 +38,7 @@ export const Paragraph = styled.p`
   font-size: 1.3625em;
   line-height: 1.325em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     text-align: center;
     font-size: 1.05em;
     line-height: 1.6em;
@@ -50,7 +50,7 @@ export const GridViewControl = styled.div`
   display: grid;
   grid-template-columns: repeat(2, auto);
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     display: none;
   }
 `;

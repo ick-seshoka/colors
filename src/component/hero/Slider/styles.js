@@ -14,7 +14,7 @@ export const TextSliderControl = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     flex-direction: row;
   }
 `;
@@ -22,7 +22,7 @@ export const TextSliderControl = styled.div`
 export const ColorPaletteIcon = styled.img.attrs({ src: PaletteIcon })`
   max-width: 150px;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     max-width: 5.3125em;
     margin-bottom: 1.875em;
   }
@@ -34,7 +34,7 @@ export const Title = styled.h2`
   font-weight: 500;
   text-align: center;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     font-size: 1.755em;
     line-height: 1.5;
   }
@@ -47,7 +47,7 @@ export const Paragraph = styled.p`
   text-align: center;
   line-height: 1.5375em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     font-size: 1.05em;
   }
 `;
@@ -60,7 +60,7 @@ export const ControlButton = styled.a`
     active ? "rgba(0, 0, 0, 0.7)" : "rgba(0, 0, 0, 0.15)"};
   margin-bottom: 3em;
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     margin-right: 1.5em;
     width: 0.6375em;
     height: 0.6375em;

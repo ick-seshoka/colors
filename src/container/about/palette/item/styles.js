@@ -25,7 +25,7 @@ export const Container = styled.div`
       transform: scale(1.15);
     `};
 
-  @media screen and (max-width: 40em) {
+  @media screen and (max-width: 47.9375em) {
     height: 9em;
   }
 `;
