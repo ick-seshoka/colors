@@ -18,13 +18,19 @@ export const Container = styled.div`
     border-radius: 1.7375em 1.7375em 0 0;
   }
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     grid-template-columns: auto;
     grid-template-rows: 85% auto;
 
     &:after {
       width: 80%;
       height: 0.8em;
+    }
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    &:after {
+      width: 60%;
     }
   }
 `;

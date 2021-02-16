@@ -14,17 +14,22 @@ export const TextSliderControl = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 47.9375em) {
+  @media screen and (max-width: 61.9375em) {
     flex-direction: row;
   }
 `;
 
 export const ColorPaletteIcon = styled.img.attrs({ src: PaletteIcon })`
-  max-width: 150px;
+  max-width: 9.375em;
 
   @media screen and (max-width: 47.9375em) {
     max-width: 5.3125em;
     margin-bottom: 1.875em;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    max-width: 7.3125em;
+    margin-bottom: 2.125em;
   }
 `;
 
@@ -38,6 +43,11 @@ export const Title = styled.h2`
     font-size: 1.755em;
     line-height: 1.5;
   }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    font-size: 3.335em;
+    line-height: 1.5;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -49,6 +59,11 @@ export const Paragraph = styled.p`
 
   @media screen and (max-width: 47.9375em) {
     font-size: 1.05em;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    font-size: 1.4635em;
+    line-height: 1.6;
   }
 `;
 
@@ -64,5 +79,11 @@ export const ControlButton = styled.a`
     margin-right: 1.5em;
     width: 0.6375em;
     height: 0.6375em;
+  }
+
+  @media screen and (min-width: 48em) and (max-width: 61.9375em) {
+    margin-right: 2.3em;
+    width: 0.9375em;
+    height: 0.9375em;
   }
 `;
