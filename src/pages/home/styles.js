@@ -33,9 +33,10 @@ export const Container = styled.div`
     padding: 0 4em;
   }
 
-  @media screen and (min-width: 62em) and (max-width: 75em) {
-    max-width: 100%;
+  @media screen and (min-width: 62em) {
     padding: 0 5.125em;
+    max-width: 100%;
+    width: 90%;
   }
 `;
 

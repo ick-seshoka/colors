@@ -16,6 +16,7 @@ const PaletteGrid = forwardRef((props, ref) => {
     activeShade,
     setActiveShade,
   } = props;
+
   return (
     <Container ref={ref}>
       <Intro />

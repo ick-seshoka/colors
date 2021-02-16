@@ -14,6 +14,11 @@ export const Container = styled.div`
   @media screen and (min-width: 48em) and (max-width: 61.9375em) {
     justify-items: center;
   }
+
+  @media screen and (min-width: 62em) {
+    width: 80%;
+    margin: 0 auto;
+  }
 `;
 
 export const Content = styled.div`
@@ -28,6 +33,10 @@ export const Content = styled.div`
 
   @media screen and (min-width: 48em) and (max-width: 61.9375em) {
     max-width: 80%;
+  }
+
+  @media screen and (min-width: 62em) {
+    max-width: 70%;
   }
 `;
 

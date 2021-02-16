@@ -25,9 +25,9 @@ export const ContentWrap = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
-  width: 50%;
+  width: 60%;
 
-  @media screen and (max-width: 61.9375em) {
+  @media screen and (max-width: 75em) {
     max-width: 100%;
     width: 80%;
   }
@@ -89,6 +89,10 @@ export const DownloadButtons = styled.div`
 
   @media screen and (min-width: 48em) and (max-width: 61.9375em) {
     width: 80%;
+  }
+
+  @media screen and (min-width: 62em) and (max-width: 75em) {
+    width: 60%;
   }
 `;
 
