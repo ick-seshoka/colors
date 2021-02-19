@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="28px" viewBox="0 0 35 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>List</title>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1071.000000, -1635.000000)" fill="#B0BEC5" id="Palette">
+            <g transform="translate(0.000000, 679.000000)">
+                <g id="Colors-palette" transform="translate(0.000000, 746.000000)">
+                    <g id="View-options" transform="translate(1071.000000, 207.000000)">
+                        <g id="List-view-icon" transform="translate(0.000000, 3.000000)">
+                            <path d="M0,18 L8.23529412,18 L8.23529412,10 L0,10 L0,18 L0,18 Z M0,28 L8.23529412,28 L8.23529412,20 L0,20 L0,28 L0,28 Z M0,8 L8.23529412,8 L8.23529412,0 L0,0 L0,8 L0,8 Z M10.2941176,18 L35,18 L35,10 L10.2941176,10 L10.2941176,18 L10.2941176,18 Z M10.2941176,28 L35,28 L35,20 L10.2941176,20 L10.2941176,28 L10.2941176,28 Z M10.2941176,0 L10.2941176,8 L35,8 L35,0 L10.2941176,0 L10.2941176,0 Z" id="List"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

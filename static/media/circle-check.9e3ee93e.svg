@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-456.000000, -1858.000000)" fill="#FFFFFF" id="Palette">
+            <g transform="translate(0.000000, 679.000000)">
+                <g id="Colors-palette" transform="translate(0.000000, 746.000000)">
+                    <g id="Palette" transform="translate(251.000000, 120.000000)">
+                        <g id="Primary-colors" transform="translate(142.000000, 237.000000)">
+                            <g id="Selected-indicator-(active)" transform="translate(63.371308, 76.736142)">
+                                <path d="M13.7763713,0 C6.19936709,0 0,6.16629712 0,13.7028825 C0,21.2394678 6.19936709,27.405765 13.7763713,27.405765 C21.3533755,27.405765 27.5527426,21.2394678 27.5527426,13.7028825 C27.5527426,6.16629712 21.3533755,0 13.7763713,0 L13.7763713,0 Z M11.021097,20.5543237 L4.13291139,13.7028825 L6.06160338,11.7844789 L11.021097,16.7175166 L21.4911392,6.30332594 L23.4198312,8.22172949 L11.021097,20.5543237 L11.021097,20.5543237 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

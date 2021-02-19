@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="36px" viewBox="0 0 110 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>colors</title>
+    <defs>
+        <linearGradient x1="-15.4460346%" y1="56.6413403%" x2="117.079371%" y2="56.6413403%" id="linearGradient-1">
+            <stop stop-color="#F44336" offset="0%"></stop>
+            <stop stop-color="#FF9800" offset="28.0629363%"></stop>
+            <stop stop-color="#2196F3" offset="63.8241117%"></stop>
+            <stop stop-color="#4CAF50" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Avenir-Light, Avenir" font-size="45" font-weight="300" letter-spacing="-1.324286">
+        <g transform="translate(-249.000000, -60.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero" id="Header">
+            <g transform="translate(0.000000, -1.000000)">
+                <g id="Logo-title" transform="translate(247.000000, 51.000000)">
+                    <text id="colors">
+                        <tspan x="0.442858" y="45">colors</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
